@@ -5,11 +5,11 @@
         <div id="title">
           <h2>Find recipes for your</h2>
           <h1>Leftovers</h1>
-          <p id="by">by <a href="https://www.tneely.com">Taylor Neely</a></p>
         </div>
         <search/>
         <suggestions/>
         <ingredients-list/>
+        <div id="by">by <a href="https://www.tneely.com">Taylor Neely</a></div>
       </div>
     </transition>
 
@@ -153,7 +153,8 @@ h2 {
 }
 #by {
   color: whitesmoke;
-  font-size: 0.8em;
+  margin: 2em 0 1em 0;
+  text-align: center;
 }
 #by a {
   color: gainsboro;
