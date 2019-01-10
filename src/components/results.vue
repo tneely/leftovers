@@ -16,8 +16,7 @@
       <a :href="result.link" class="name" target="_blank">
         {{result.name}}
       </a>
-      <div class="description">
-        {{result.description}}
+      <div class="description" v-html="result.description">
       </div>
       <a :href="result.link" class="link" target="_blank" title="View full recipe on website"></a>
     </div>
